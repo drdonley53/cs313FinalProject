@@ -1,0 +1,66 @@
+body {
+    background-image: url("stripe_black.jpg");
+    background-repeat: repeat;
+
+}
+
+.module {
+    background-color: rgba(255,255,255,.7);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#center{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #cccccc;
+}
+
+h2{
+    color: #cccccc;
+}
+
+h3{
+    text-align: center;
+}
+
+div.module h2{
+    color: #333333;
+    text-align:center;
+}
+
+img.logo{
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+}
+
+.overlay {
+    position: absolute;
+    /*display: block;*/
+    top: 34%;
+    left: 45%;
+    /*text-align: center;*/
+}
+
+.icon {
+    font-size: 200%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sticky{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: available;
+}
